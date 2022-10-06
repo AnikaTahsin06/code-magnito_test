@@ -41,7 +41,7 @@ const Cards = () => {
         />
         <Card
           img={mew4}
-          name="Pinki Rose"
+          name="Pinky Rose"
           title="Web Developer"
           description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
           pariatur, mollitia nesciunt tenetur nam tempore porro in id
