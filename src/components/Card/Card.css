@@ -1,3 +1,22 @@
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgba(30, 5, 5, 0.869);
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 610;
+  color: brown;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgba(61, 18, 18, 0.869);
+  line-height: 1.5em;
+}
+
 .card {
   margin: 5%;
   background-color: bisque;
@@ -12,24 +31,5 @@
 }
 
 .card-body {
-  text-align: center;
   padding: 2% 5% 8% 5%;
-}
-
-.card-body h2 {
-  font-size: 1.5em;
-  font-weight: 600;
-  color: rgba(30, 5, 5, 0.869);
-}
-
-.card-body h3 {
-  font-size: 1.2em;
-  font-weight: 600;
-  color: brown;
-}
-.card-body p {
-  font-size: 1em;
-  font-weight: 400;
-  color: rgba(61, 18, 18, 0.869);
-  line-height: 1.5em;
 }

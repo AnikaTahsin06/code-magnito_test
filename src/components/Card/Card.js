@@ -1,21 +1,16 @@
 import React from "react";
 import "./Card.css";
-import pinki from "../../images/pinki.jpg";
 
-const Card = () => {
+const Card = ({ img, name, title, description }) => {
   return (
     <div className="card">
       <div className="card-img">
-        <img src={pinki} alt="I am Pinki" />
+        <img src={img} alt="I am Pinki" />
       </div>
-      <div className="card-body">
-        <h2>Miss Pinki</h2>
-        <h3>Web Developer</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
-          pariatur, mollitia nesciunt tenetur nam tempore porro in id
-          voluptatibus repelle
-        </p>
+      <div className="card-body text-position">
+        <h2>{name}</h2>
+        <h3>{title}</h3>
+        <p>{description}</p>
       </div>
     </div>
   );
